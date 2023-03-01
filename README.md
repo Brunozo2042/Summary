@@ -1,3 +1,9 @@
+Este é meu primeiro projeto usando HTML, CSS e JS. No arquivos de JS é possível mudar os parâmetros.
+
+Peguei essa ideia desse site chamado Fronend Mentor.
+
+Esta bem simples mas já é um começo.
+
 # Frontend Mentor - Results summary component
 
 ![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
@@ -94,5 +100,3 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
-
-No arquivos de JS é possível mudar os parâmetros.
