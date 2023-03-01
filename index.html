@@ -29,7 +29,7 @@
             </div>
         </div>
         <br>
-        <div id="status" class="colorWhite">Great</div>
+        <div id="status" class="colorWhite"></div>
         <br>
         <div class="colorGray">
             You scored higher than <div id="percent">65%</div> of the people who have taken these tests.
@@ -47,7 +47,7 @@
                     <div style="color:#FF5555">Reaction</div>
                 </div>
                 <div class="values">
-                    <div id="ResReaction"></div>
+                    <input id="ResReaction" value="0" ></input>
                     <div class="colorGray"> / 100 </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@
                     <div style="color:#FFB21E">Memory</div>
                 </div>
                 <div class="values">
-                    <div id="ResMemory"></div>
+                    <input id="ResMemory" value="0"></input>
                     <div class="colorGray">/ 100 </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
                     <div style="color:#00BB8F">Verbal</div>
                 </div>
                 <div class="values">
-                    <div id="ResVerbal"></div>
+                    <input id="ResVerbal" value="0"></input>
                     <div class="colorGray">/ 100 </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                     <div style="color:#1125D6">Visual</div>
                 </div>
                 <div class="values">
-                    <div id="ResVisual"></div>
+                    <input id="ResVisual" value="0"></input>
                     <div class="colorGray">/ 100 </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
         
         <br>
 
-        <input type="button" value="Continue">
+        <input type="button" value="Continue" onclick="GeraDados()">
 
     </div>
     <div class="attribution">

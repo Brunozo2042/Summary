@@ -92,6 +92,10 @@ img{
     color: white;
 }
 
+#content{
+    display: none;
+}
+
 
 #Reaction{
     background-color: #ff555538;
@@ -133,16 +137,36 @@ li{
 
 #ResReaction{
     margin-right: 6px;
+    width: 27px;
+    background-color: #ff555538;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
 }
 
 #ResMemory{
     margin-right: 6px;
+    width: 27px;
+    background-color: #FFB21E38;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
 }
 
 #ResVerbal{
     margin-right: 6px;
+    width: 27px;
+    background-color: #00BB8F38;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
 }
 
 #ResVisual{
     margin-right: 6px;
+    width: 27px;
+    background-color: #1125D638;
+    border-radius: 5px;
+    border: none;  
+    text-align: center;
 }
