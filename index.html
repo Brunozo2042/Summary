@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">
+
+    <title>Frontend Mentor | Results summary component</title>
+
+</head>
+
+<body>
+
+    <div id="result">
+        <h3 class="colorWhite">Your Result</h3>
+        <div id="circle" class="colorGray">
+            <div id="content">
+                <p id="avarage" class="colorWhite">
+                    
+                </p>
+                of 100
+            </div>
+        </div>
+        <br>
+        <div id="status" class="colorWhite">Great</div>
+        <br>
+        <div class="colorGray">
+            You scored higher than <div id="percent">65%</div> of the people who have taken these tests.
+        </div>
+    </div>
+
+    <div id="summary">
+
+        <h2>Summary</h2>
+
+        <div id="Reaction">
+            <div class="sumCat">
+                <div class="cat">
+                    <img src="./assets/images/icon-reaction.svg" alt="">    
+                    <div style="color:#FF5555">Reaction</div>
+                </div>
+                <div class="values">
+                    <div id="ResReaction"></div>
+                    <div class="colorGray"> / 100 </div>
+                </div>
+            </div>
+        </div>    
+        <div id="Memory">
+            <div class="sumCat">
+                <div class="cat">
+                    <img src="./assets/images/icon-memory.svg" alt="">
+                    <div style="color:#FFB21E">Memory</div>
+                </div>
+                <div class="values">
+                    <div id="ResMemory"></div>
+                    <div class="colorGray">/ 100 </div>
+                </div>
+            </div>
+        </div>
+        <div id="Verbal">    
+            <div class="sumCat">
+                <div class="cat">
+                    <img src="./assets/images/icon-verbal.svg" alt="">
+                    <div style="color:#00BB8F">Verbal</div>
+                </div>
+                <div class="values">
+                    <div id="ResVerbal"></div>
+                    <div class="colorGray">/ 100 </div>
+                </div>
+            </div>
+        </div>
+        <div id="Visual">
+            <div class="sumCat">
+                <div class="cat">
+                    <img src="./assets/images/icon-visual.svg" alt="">
+                    <div style="color:#1125D6">Visual</div>
+                </div>
+                <div class="values">
+                    <div id="ResVisual"></div>
+                    <div class="colorGray">/ 100 </div>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+
+        <input type="button" value="Continue">
+
+    </div>
+    <div class="attribution">
+        <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.</p>
+        <p>Coded by <a href="https://www.linkedin.com/in/bruno-henrique-a88961208/">Bruno Henrique</a>.</p>
+    </div>
+<script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,148 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+
+}
+
+h2{
+    text-align: left;
+}
+
+input[type="button"]{
+    font-family: 'Hanken Grotesk', sans-serif;
+    padding: 12px 70px;
+    border-radius: 25px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    border: none;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+}
+
+#result{
+    display: inline-block;
+    text-align: center;
+    height: 400px;
+    width: 280px;
+    background: rgb(78,33,202);
+    background: linear-gradient(0deg,  hsl(234, 81%, 54%) 0%,hsl(252, 100%, 67%) 25%);
+    padding: 20px;
+    border-radius: 30px 0 0 30px ;
+    margin-top: 50px;
+    box-shadow: 1px 1px 30px rgb(114, 114, 114);
+}
+
+#summary{
+    display: inline-block;
+    height: 400px;
+    width: 280px;
+    padding: 20px;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 1px 1px 30px rgb(114, 114, 114);
+    margin-left: -4px;
+}
+
+.sumCat{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+img{
+    margin-right: 10px;
+}
+
+#circle{
+    background: rgb(78,33,202);
+    background: linear-gradient(0deg, hsl(252, 100%, 67%) 0%, hsl(234, 81%, 54%) 150%);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avarage{
+    font-size: 60px;
+    font-weight: 1000;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.colorGray{
+    color: hsl(0, 1%, 69%);
+}
+
+.colorWhite{
+    color: white;
+}
+
+
+#Reaction{
+    background-color: #ff555538;
+    border-radius: 15px;
+}
+
+#Memory{
+    background-color: #FFB21E38;
+    border-radius: 15px;
+}
+
+#Verbal{
+    background-color: #00BB8F38;
+    border-radius: 15px;
+}
+
+#Visual{
+    background-color: #1125D638;
+    border-radius: 15px;
+}
+li{
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.cat{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.values{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#percent{
+    display: inline;
+}
+
+#ResReaction{
+    margin-right: 6px;
+}
+
+#ResMemory{
+    margin-right: 6px;
+}
+
+#ResVerbal{
+    margin-right: 6px;
+}
+
+#ResVisual{
+    margin-right: 6px;
+}
