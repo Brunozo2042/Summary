@@ -1,6 +1,6 @@
 Este é meu primeiro projeto usando HTML, CSS e JS.
 
-Peguei essa ideia desse site chamado Fronend Mentor.
+Peguei essa ideia desse site chamado Frontend Mentor.
 
 Esta bem simples mas já é um começo.
 
