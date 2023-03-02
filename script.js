@@ -12,21 +12,21 @@ let avarage = document.getElementById("avarage");
 let percent = document.getElementById("percent");
 let inf = document.querySelector("#status");
 let content = document.getElementById("content")
+let summary = document.getElementById("summary")
 
 function GeraDados(){
 
 	let sum = 0
 
-	
 	sum = parseInt(ResRe.value) + parseInt(ResMe.value) + parseInt(ResVe.value) + parseInt(ResVis.value)
 	//console.log(soma)
 	let media = Math.round(sum / 4)
 
 	avarage.innerHTML = media
 
-	content.style.display = "block"
+	content.style.visibility = "visible"
 
-	console.log(media)
+	//console.log(media)
 
 	if (media >= 0 && media <= 25) {
 		inf.innerHTML = "Terrible"
@@ -37,6 +37,8 @@ function GeraDados(){
 	} else if (media > 75 && media <= 100) {
 		inf.innerHTML = "Awesome"
 	}
+
+	inf.style.visibility = "visible"
 }
 
 percent.innerHTML = categories[0].percent
