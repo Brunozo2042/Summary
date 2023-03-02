@@ -19,7 +19,7 @@ function GeraDados(){
 
 	
 	sum = parseInt(ResRe.value) + parseInt(ResMe.value) + parseInt(ResVe.value) + parseInt(ResVis.value)
-	console.log(soma)
+	//console.log(soma)
 	let media = Math.round(sum / 4)
 
 	avarage.innerHTML = media
